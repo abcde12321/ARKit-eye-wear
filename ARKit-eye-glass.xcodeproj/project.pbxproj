@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315F44A9256718B300671D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44A8256718B300671D9A /* AppDelegate.swift */; };
+		315F44AB256718B300671D9A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 315F44AA256718B300671D9A /* art.scnassets */; };
+		315F44AD256718B300671D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44AC256718B300671D9A /* ViewController.swift */; };
+		315F44B0256718B300671D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315F44AE256718B300671D9A /* Main.storyboard */; };
+		315F44B2256718B700671D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315F44B1256718B700671D9A /* Assets.xcassets */; };
+		315F44B5256718B700671D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315F44B3256718B700671D9A /* LaunchScreen.storyboard */; };
+		315F44C0256718B800671D9A /* ARKit_eye_glassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44BF256718B800671D9A /* ARKit_eye_glassTests.swift */; };
+		315F44CB256718B800671D9A /* ARKit_eye_glassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44CA256718B800671D9A /* ARKit_eye_glassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315F44BC256718B800671D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315F449D256718B300671D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315F44A4256718B300671D9A;
+			remoteInfo = "ARKit-eye-glass";
+		};
+		315F44C7256718B800671D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315F449D256718B300671D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315F44A4256718B300671D9A;
+			remoteInfo = "ARKit-eye-glass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315F44A5256718B300671D9A /* ARKit-eye-glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-eye-glass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315F44A8256718B300671D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		315F44AA256718B300671D9A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		315F44AC256718B300671D9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		315F44AF256718B300671D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		315F44B1256718B700671D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315F44B4256718B700671D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		315F44B6256718B700671D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315F44BB256718B800671D9A /* ARKit-eye-glassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-eye-glassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315F44BF256718B800671D9A /* ARKit_eye_glassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_eye_glassTests.swift; sourceTree = "<group>"; };
+		315F44C1256718B800671D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315F44C6256718B800671D9A /* ARKit-eye-glassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-eye-glassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315F44CA256718B800671D9A /* ARKit_eye_glassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_eye_glassUITests.swift; sourceTree = "<group>"; };
+		315F44CC256718B800671D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315F44A2256718B300671D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44B8256718B800671D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44C3256718B800671D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315F449C256718B300671D9A = {
+			isa = PBXGroup;
+			children = (
+				315F44A7256718B300671D9A /* ARKit-eye-glass */,
+				315F44BE256718B800671D9A /* ARKit-eye-glassTests */,
+				315F44C9256718B800671D9A /* ARKit-eye-glassUITests */,
+				315F44A6256718B300671D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315F44A6256718B300671D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315F44A5256718B300671D9A /* ARKit-eye-glass.app */,
+				315F44BB256718B800671D9A /* ARKit-eye-glassTests.xctest */,
+				315F44C6256718B800671D9A /* ARKit-eye-glassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315F44A7256718B300671D9A /* ARKit-eye-glass */ = {
+			isa = PBXGroup;
+			children = (
+				315F44A8256718B300671D9A /* AppDelegate.swift */,
+				315F44AA256718B300671D9A /* art.scnassets */,
+				315F44AC256718B300671D9A /* ViewController.swift */,
+				315F44AE256718B300671D9A /* Main.storyboard */,
+				315F44B1256718B700671D9A /* Assets.xcassets */,
+				315F44B3256718B700671D9A /* LaunchScreen.storyboard */,
+				315F44B6256718B700671D9A /* Info.plist */,
+			);
+			path = "ARKit-eye-glass";
+			sourceTree = "<group>";
+		};
+		315F44BE256718B800671D9A /* ARKit-eye-glassTests */ = {
+			isa = PBXGroup;
+			children = (
+				315F44BF256718B800671D9A /* ARKit_eye_glassTests.swift */,
+				315F44C1256718B800671D9A /* Info.plist */,
+			);
+			path = "ARKit-eye-glassTests";
+			sourceTree = "<group>";
+		};
+		315F44C9256718B800671D9A /* ARKit-eye-glassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				315F44CA256718B800671D9A /* ARKit_eye_glassUITests.swift */,
+				315F44CC256718B800671D9A /* Info.plist */,
+			);
+			path = "ARKit-eye-glassUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315F44A4256718B300671D9A /* ARKit-eye-glass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315F44CF256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glass" */;
+			buildPhases = (
+				315F44A1256718B300671D9A /* Sources */,
+				315F44A2256718B300671D9A /* Frameworks */,
+				315F44A3256718B300671D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit-eye-glass";
+			productName = "ARKit-eye-glass";
+			productReference = 315F44A5256718B300671D9A /* ARKit-eye-glass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315F44BA256718B800671D9A /* ARKit-eye-glassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315F44D2256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glassTests" */;
+			buildPhases = (
+				315F44B7256718B800671D9A /* Sources */,
+				315F44B8256718B800671D9A /* Frameworks */,
+				315F44B9256718B800671D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315F44BD256718B800671D9A /* PBXTargetDependency */,
+			);
+			name = "ARKit-eye-glassTests";
+			productName = "ARKit-eye-glassTests";
+			productReference = 315F44BB256718B800671D9A /* ARKit-eye-glassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315F44C5256718B800671D9A /* ARKit-eye-glassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315F44D5256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glassUITests" */;
+			buildPhases = (
+				315F44C2256718B800671D9A /* Sources */,
+				315F44C3256718B800671D9A /* Frameworks */,
+				315F44C4256718B800671D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315F44C8256718B800671D9A /* PBXTargetDependency */,
+			);
+			name = "ARKit-eye-glassUITests";
+			productName = "ARKit-eye-glassUITests";
+			productReference = 315F44C6256718B800671D9A /* ARKit-eye-glassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315F449D256718B300671D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					315F44A4256718B300671D9A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					315F44BA256718B800671D9A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 315F44A4256718B300671D9A;
+					};
+					315F44C5256718B800671D9A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 315F44A4256718B300671D9A;
+					};
+				};
+			};
+			buildConfigurationList = 315F44A0256718B300671D9A /* Build configuration list for PBXProject "ARKit-eye-glass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315F449C256718B300671D9A;
+			productRefGroup = 315F44A6256718B300671D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315F44A4256718B300671D9A /* ARKit-eye-glass */,
+				315F44BA256718B800671D9A /* ARKit-eye-glassTests */,
+				315F44C5256718B800671D9A /* ARKit-eye-glassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315F44A3256718B300671D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F44AB256718B300671D9A /* art.scnassets in Resources */,
+				315F44B5256718B700671D9A /* LaunchScreen.storyboard in Resources */,
+				315F44B2256718B700671D9A /* Assets.xcassets in Resources */,
+				315F44B0256718B300671D9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44B9256718B800671D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44C4256718B800671D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315F44A1256718B300671D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F44AD256718B300671D9A /* ViewController.swift in Sources */,
+				315F44A9256718B300671D9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44B7256718B800671D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F44C0256718B800671D9A /* ARKit_eye_glassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315F44C2256718B800671D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F44CB256718B800671D9A /* ARKit_eye_glassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315F44BD256718B800671D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315F44A4256718B300671D9A /* ARKit-eye-glass */;
+			targetProxy = 315F44BC256718B800671D9A /* PBXContainerItemProxy */;
+		};
+		315F44C8256718B800671D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315F44A4256718B300671D9A /* ARKit-eye-glass */;
+			targetProxy = 315F44C7256718B800671D9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		315F44AE256718B300671D9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315F44AF256718B300671D9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		315F44B3256718B700671D9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315F44B4256718B700671D9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		315F44CD256718B800671D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		315F44CE256718B800671D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		315F44D0256718B800671D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		315F44D1256718B800671D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		315F44D3256718B800671D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glassTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-eye-glass.app/ARKit-eye-glass";
+			};
+			name = Debug;
+		};
+		315F44D4256718B800671D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glassTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-eye-glass.app/ARKit-eye-glass";
+			};
+			name = Release;
+		};
+		315F44D6256718B800671D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-eye-glass";
+			};
+			name = Debug;
+		};
+		315F44D7256718B800671D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4R5N54923;
+				INFOPLIST_FILE = "ARKit-eye-glassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FanYang.ARKit-eye-glassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-eye-glass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315F44A0256718B300671D9A /* Build configuration list for PBXProject "ARKit-eye-glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F44CD256718B800671D9A /* Debug */,
+				315F44CE256718B800671D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315F44CF256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F44D0256718B800671D9A /* Debug */,
+				315F44D1256718B800671D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315F44D2256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F44D3256718B800671D9A /* Debug */,
+				315F44D4256718B800671D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315F44D5256718B800671D9A /* Build configuration list for PBXNativeTarget "ARKit-eye-glassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F44D6256718B800671D9A /* Debug */,
+				315F44D7256718B800671D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315F449D256718B300671D9A /* Project object */;
+}
