@@ -15,6 +15,9 @@
 		315F44B5256718B700671D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315F44B3256718B700671D9A /* LaunchScreen.storyboard */; };
 		315F44C0256718B800671D9A /* ARKit_eye_glassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44BF256718B800671D9A /* ARKit_eye_glassTests.swift */; };
 		315F44CB256718B800671D9A /* ARKit_eye_glassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44CA256718B800671D9A /* ARKit_eye_glassUITests.swift */; };
+		315F44DC256719F500671D9A /* FaceOcclusionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44DB256719F500671D9A /* FaceOcclusionOverlay.swift */; };
+		315F44E125671A1900671D9A /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F44E025671A1900671D9A /* VirtualContent.swift */; };
+		315F44EA2567BF2300671D9A /* VideoToGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 315F44E92567BF2300671D9A /* VideoToGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		315F44C6256718B800671D9A /* ARKit-eye-glassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-eye-glassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		315F44CA256718B800671D9A /* ARKit_eye_glassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_eye_glassUITests.swift; sourceTree = "<group>"; };
 		315F44CC256718B800671D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315F44DB256719F500671D9A /* FaceOcclusionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceOcclusionOverlay.swift; sourceTree = "<group>"; };
+		315F44E025671A1900671D9A /* VirtualContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
+		315F44E825671F3B00671D9A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		315F44E92567BF2300671D9A /* VideoToGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VideoToGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,8 @@
 		315F449C256718B300671D9A = {
 			isa = PBXGroup;
 			children = (
+				315F44E825671F3B00671D9A /* README.md */,
+				315F44E92567BF2300671D9A /* VideoToGif.gif */,
 				315F44A7256718B300671D9A /* ARKit-eye-glass */,
 				315F44BE256718B800671D9A /* ARKit-eye-glassTests */,
 				315F44C9256718B800671D9A /* ARKit-eye-glassUITests */,
@@ -103,6 +112,8 @@
 				315F44AA256718B300671D9A /* art.scnassets */,
 				315F44AC256718B300671D9A /* ViewController.swift */,
 				315F44AE256718B300671D9A /* Main.storyboard */,
+				315F44E025671A1900671D9A /* VirtualContent.swift */,
+				315F44DB256719F500671D9A /* FaceOcclusionOverlay.swift */,
 				315F44B1256718B700671D9A /* Assets.xcassets */,
 				315F44B3256718B700671D9A /* LaunchScreen.storyboard */,
 				315F44B6256718B700671D9A /* Info.plist */,
@@ -235,6 +246,7 @@
 				315F44B5256718B700671D9A /* LaunchScreen.storyboard in Resources */,
 				315F44B2256718B700671D9A /* Assets.xcassets in Resources */,
 				315F44B0256718B300671D9A /* Main.storyboard in Resources */,
+				315F44EA2567BF2300671D9A /* VideoToGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				315F44AD256718B300671D9A /* ViewController.swift in Sources */,
+				315F44E125671A1900671D9A /* VirtualContent.swift in Sources */,
+				315F44DC256719F500671D9A /* FaceOcclusionOverlay.swift in Sources */,
 				315F44A9256718B300671D9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
